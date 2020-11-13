@@ -17,7 +17,7 @@ function CounterDisplay({ counter }) {
                 height: '200px',
                 margin: '0 auto'
             }}>
-                <h1 style={{ fontSize: "4rem", color: 'wheat' }}>{counter === 3 ? '<' + counter : counter}</h1>
+                <h1 style={{ fontSize: "4rem", color: 'wheat', margin: '0' }}>{counter === 3 ? '<' + counter : counter}</h1>
             </div>
             <div style={{
                 backgroundColor: 'lightgray',
@@ -67,7 +67,7 @@ function CounterDisplay({ counter }) {
 
 const mapStateToProps = state => {
     return {
-        counter: state.counter
+        counter: state.counterReducer.counter
     }
 }
 
