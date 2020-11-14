@@ -3,7 +3,7 @@ import { SaveOutlined } from '@ant-design/icons';
 
 import React from 'react';
 import { connect } from 'react-redux';
-import { RECORD, DELETE_RECORD, record, deleteRecord } from '../../store/action';
+import { record, deleteRecord } from '../../store/action';
 
 function ResultList({ resultList, counter, onRecordCounter, onRecordDelete }) {
     return (
