@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Calculator from './containers/pages/Calculator';
+import ListObj from './containers/ListObj/ListObj';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Calculator />
+      <ListObj />
 
     </div>
   );
